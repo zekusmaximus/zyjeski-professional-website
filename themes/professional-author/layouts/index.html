@@ -1,0 +1,51 @@
+{{ define "main" }}
+<section class="hero-section">
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="author-photo">
+                <img src="/images/author-headshot.jpg" alt="{{ .Site.Params.author }}" class="author-image">
+            </div>
+            <div class="author-info">
+                <h1 class="author-name">{{ .Site.Params.author }}</h1>
+                <h2 class="author-title">Speculative Fiction Author</h2>
+                <p class="author-credentials">J.D., University of Connecticut • 25+ Years Legal Experience</p>
+                <div class="hero-buttons">
+                    <a href="/manuscript/" class="btn btn-primary">Current Manuscript</a>
+                    <a href="/contact/" class="btn btn-secondary">Agent Inquiries</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="manuscript-showcase">
+    <div class="showcase-container">
+        <h2 class="section-title">Current Work</h2>
+        <div class="manuscript-card">
+            <div class="manuscript-cover">
+                <img src="/images/karmic-protocol-cover.jpg" alt="The Karmic Protocol book cover" class="cover-image">
+            </div>
+            <div class="manuscript-details">
+                <h3 class="manuscript-title">{{ .Site.Params.manuscript_title }}</h3>
+                <p class="manuscript-meta">Speculative Thriller • {{ .Site.Params.manuscript_wordcount }} words • {{ .Site.Params.manuscript_status }}</p>
+                <p class="manuscript-logline">A quantum VR headset promises rapid Buddhist awakening, igniting a conflict between seekers of digital enlightenment and corporate-government forces.</p>
+                <div class="manuscript-actions">
+                    <a href="/manuscript/" class="btn btn-outline">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about-preview">
+    <div class="about-container">
+        <h2 class="section-title">About the Author</h2>
+        <div class="about-content">
+            <p>Jeffrey A. Zyjeski brings together decades of legal expertise and spiritual practice to create thought-provoking speculative fiction that explores the intersection of consciousness and technology.</p>
+            <p>With a J.D. from the University of Connecticut and over 25 years in legal and government relations, combined with 30+ years of meditation practice, Zyjeski offers unique insights into the human condition in our rapidly evolving digital age.</p>
+            <a href="/bio/" class="btn btn-outline">Full Biography</a>
+        </div>
+    </div>
+</section>
+{{ end }}
+

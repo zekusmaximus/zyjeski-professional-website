@@ -1,0 +1,31 @@
+baseURL = 'https://agent.zyjeski.com'
+languageCode = 'en-us'
+title = 'Jeffrey A. Zyjeski - Author'
+theme = "professional-author"
+
+[params]
+  author = "Jeffrey A. Zyjeski"
+  description = "Speculative fiction author seeking representation"
+  email = "jeff@zyjeski.com"
+  manuscript_title = "The Karmic Protocol"
+  manuscript_wordcount = "89,400"
+  manuscript_status = "Complete"
+
+[menu]
+  [[menu.main]]
+    name = "Current Work"
+    url = "/manuscript/"
+    weight = 10
+  [[menu.main]]
+    name = "Published"
+    url = "/published/"
+    weight = 20
+  [[menu.main]]
+    name = "Bio"
+    url = "/bio/"
+    weight = 30
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
+
