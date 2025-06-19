@@ -16,14 +16,14 @@ A thought-provoking exploration of consciousness and identity in the digital age
 
 ## Newsletter and Ongoing Writing
 
-### Consciousness & Technology Newsletter
+### Future Law Insider
 
-A regular publication exploring the intersection of spiritual practice, technological innovation, and human consciousness. Subscribers receive insights on:
+A regular publication exploring the intersection of emerging technology and legal frameworks through a unique blend of policy analysis and speculative scenarios. Subscribers receive insights on:
 
-- Emerging technologies and their impact on contemplative practice
+- Emerging technologies and their impact on law
 - Philosophical implications of AI and consciousness research
-- Reviews of books and media exploring technology and spirituality
-- Personal reflections on meditation and mindfulness in the digital age
+- Policy Analysis of the gap between innovation and regulation
+- Speculative Fiction takedown of each month's theme
 
 **Subscribe:** Updates available through the contact page
 
